@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.title {
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.content-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-area {
+    flex: 2;
+    font-size: 16px;
+}
+
+.image-area img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.rectangle-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.rectangle {
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    width: 120px;
+}
+
+.rect-one { background-color: #e74c3c; }
+.rect-two { background-color: #27ae60; }
+.rect-three { background-color: #2980b9; }
+.rect-four { background-color: #8e44ad; }
+
+.color-strip {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.color-block {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.red { background-color: crimson; }
+.cyan { background-color: cyan; }
+.purple { background-color: purple; }
+
+.table-box {
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
